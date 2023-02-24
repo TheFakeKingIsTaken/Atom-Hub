@@ -1,5 +1,3 @@
-print("Atom Hub Loaded")
-
 -- Gui to Lua
 -- Version: 3.2
 
@@ -84,7 +82,6 @@ local Detail_13 = Instance.new("Frame")
 local UICorner_27 = Instance.new("UICorner")
 local Detail_14 = Instance.new("Frame")
 local Title_8 = Instance.new("TextLabel")
-local Title_9 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -623,31 +620,17 @@ Title_8.Parent = Main
 Title_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Title_8.BackgroundTransparency = 1.000
 Title_8.Position = UDim2.new(0.0147207938, 0, 0.0431483015, 0)
-Title_8.Size = UDim2.new(0, 200, 0, 50)
+Title_8.Size = UDim2.new(0, 214, 0, 50)
 Title_8.Font = Enum.Font.Code
-Title_8.Text = "Atom"
-Title_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_8.Text = "Unsupported Game"
+Title_8.TextColor3 = Color3.fromRGB(255, 0, 0)
 Title_8.TextScaled = true
 Title_8.TextSize = 35.000
 Title_8.TextWrapped = true
 
-Title_9.Name = "Title"
-Title_9.Parent = Main
-Title_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_9.BackgroundTransparency = 1.000
-Title_9.Position = UDim2.new(0.0441679023, 0, 0.0892829672, 0)
-Title_9.Size = UDim2.new(0, 202, 0, 26)
-Title_9.Font = Enum.Font.Code
-Title_9.Text = "Hub"
-Title_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_9.TextScaled = true
-Title_9.TextSize = 35.000
-Title_9.TextWrapped = true
-Title_9.TextXAlignment = Enum.TextXAlignment.Left
-
 -- Scripts:
 
-local function NSVGPY_fake_script() -- Combat.Main 
+local function XYLMP_fake_script() -- Combat.Main 
 	local script = Instance.new('LocalScript', Combat)
 
 	local active = false
@@ -677,13 +660,13 @@ local function NSVGPY_fake_script() -- Combat.Main
 		end
 	end)
 end
-coroutine.wrap(NSVGPY_fake_script)()
-local function APBJZZO_fake_script() -- nil.Color Changer 
-	local script = Instance.new('LocalScript', nil)
+coroutine.wrap(XYLMP_fake_script)()
+local function QDQVM_fake_script() -- Combat.Color Changer 
+	local script = Instance.new('LocalScript', Combat)
 
 	
 	local active = false
-	local button = script.Parent.Parent
+	local button = script.Parent
 	
 	
 	button.MouseButton1Click:Connect(function()
@@ -697,8 +680,8 @@ local function APBJZZO_fake_script() -- nil.Color Changer
 		end
 	end)
 end
-coroutine.wrap(APBJZZO_fake_script)()
-local function UMXT_fake_script() -- Movement.Main 
+coroutine.wrap(QDQVM_fake_script)()
+local function YRNNL_fake_script() -- Movement.Main 
 	local script = Instance.new('LocalScript', Movement)
 
 	local active = false
@@ -728,13 +711,13 @@ local function UMXT_fake_script() -- Movement.Main
 		end
 	end)
 end
-coroutine.wrap(UMXT_fake_script)()
-local function PUTLP_fake_script() -- nil.Color Changer 
-	local script = Instance.new('LocalScript', nil)
+coroutine.wrap(YRNNL_fake_script)()
+local function CPIAOKH_fake_script() -- Movement.Color Changer 
+	local script = Instance.new('LocalScript', Movement)
 
 	
 	local active = false
-	local button = script.Parent.Parent
+	local button = script.Parent
 	
 	
 	button.MouseButton1Click:Connect(function()
@@ -748,8 +731,8 @@ local function PUTLP_fake_script() -- nil.Color Changer
 		end
 	end)
 end
-coroutine.wrap(PUTLP_fake_script)()
-local function RJKBU_fake_script() -- Visuals.Main 
+coroutine.wrap(CPIAOKH_fake_script)()
+local function LFLT_fake_script() -- Visuals.Main 
 	local script = Instance.new('LocalScript', Visuals)
 
 	local active = false
@@ -779,13 +762,13 @@ local function RJKBU_fake_script() -- Visuals.Main
 		end
 	end)
 end
-coroutine.wrap(RJKBU_fake_script)()
-local function GTHDAIV_fake_script() -- nil.Color Changer 
-	local script = Instance.new('LocalScript', nil)
+coroutine.wrap(LFLT_fake_script)()
+local function BIHJTR_fake_script() -- Visuals.Color Changer 
+	local script = Instance.new('LocalScript', Visuals)
 
 	
 	local active = false
-	local button = script.Parent.Parent
+	local button = script.Parent
 	
 	
 	button.MouseButton1Click:Connect(function()
@@ -799,8 +782,8 @@ local function GTHDAIV_fake_script() -- nil.Color Changer
 		end
 	end)
 end
-coroutine.wrap(GTHDAIV_fake_script)()
-local function ERJDZY_fake_script() -- Utility.Main 
+coroutine.wrap(BIHJTR_fake_script)()
+local function KJSU_fake_script() -- Utility.Main 
 	local script = Instance.new('LocalScript', Utility)
 
 	local active = false
@@ -830,13 +813,13 @@ local function ERJDZY_fake_script() -- Utility.Main
 		end
 	end)
 end
-coroutine.wrap(ERJDZY_fake_script)()
-local function FYCEPR_fake_script() -- nil.Color Changer 
-	local script = Instance.new('LocalScript', nil)
+coroutine.wrap(KJSU_fake_script)()
+local function YSSCKP_fake_script() -- Utility.Color Changer 
+	local script = Instance.new('LocalScript', Utility)
 
 	
 	local active = false
-	local button = script.Parent.Parent
+	local button = script.Parent
 	
 	
 	button.MouseButton1Click:Connect(function()
@@ -850,8 +833,8 @@ local function FYCEPR_fake_script() -- nil.Color Changer
 		end
 	end)
 end
-coroutine.wrap(FYCEPR_fake_script)()
-local function GQTPU_fake_script() -- World.Main 
+coroutine.wrap(YSSCKP_fake_script)()
+local function OBBSM_fake_script() -- World.Main 
 	local script = Instance.new('LocalScript', World)
 
 	local active = false
@@ -881,13 +864,13 @@ local function GQTPU_fake_script() -- World.Main
 		end
 	end)
 end
-coroutine.wrap(GQTPU_fake_script)()
-local function ZKAFZQG_fake_script() -- nil.Color Changer 
-	local script = Instance.new('LocalScript', nil)
+coroutine.wrap(OBBSM_fake_script)()
+local function SRHZU_fake_script() -- World.Color Changer 
+	local script = Instance.new('LocalScript', World)
 
 	
 	local active = false
-	local button = script.Parent.Parent
+	local button = script.Parent
 	
 	
 	button.MouseButton1Click:Connect(function()
@@ -901,8 +884,8 @@ local function ZKAFZQG_fake_script() -- nil.Color Changer
 		end
 	end)
 end
-coroutine.wrap(ZKAFZQG_fake_script)()
-local function VQNKAC_fake_script() -- Themes.Main 
+coroutine.wrap(SRHZU_fake_script)()
+local function GCULG_fake_script() -- Themes.Main 
 	local script = Instance.new('LocalScript', Themes)
 
 	local active = false
@@ -932,13 +915,13 @@ local function VQNKAC_fake_script() -- Themes.Main
 		end
 	end)
 end
-coroutine.wrap(VQNKAC_fake_script)()
-local function YKSKYJB_fake_script() -- nil.Color Changer 
-	local script = Instance.new('LocalScript', nil)
+coroutine.wrap(GCULG_fake_script)()
+local function PHJVBJ_fake_script() -- Themes.Color Changer 
+	local script = Instance.new('LocalScript', Themes)
 
 	
 	local active = false
-	local button = script.Parent.Parent
+	local button = script.Parent
 	
 	
 	button.MouseButton1Click:Connect(function()
@@ -952,8 +935,8 @@ local function YKSKYJB_fake_script() -- nil.Color Changer
 		end
 	end)
 end
-coroutine.wrap(YKSKYJB_fake_script)()
-local function KFCMCHD_fake_script() -- Main_2.Dragify 
+coroutine.wrap(PHJVBJ_fake_script)()
+local function DULHFBZ_fake_script() -- Main_2.Dragify 
 	local script = Instance.new('LocalScript', Main_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1002,8 +985,8 @@ local function KFCMCHD_fake_script() -- Main_2.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(KFCMCHD_fake_script)()
-local function CSVPX_fake_script() -- Themes_2.Dragify 
+coroutine.wrap(DULHFBZ_fake_script)()
+local function EAWEGEG_fake_script() -- Themes_2.Dragify 
 	local script = Instance.new('LocalScript', Themes_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1052,8 +1035,8 @@ local function CSVPX_fake_script() -- Themes_2.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(CSVPX_fake_script)()
-local function AZDJA_fake_script() -- Combat_2.Dragify 
+coroutine.wrap(EAWEGEG_fake_script)()
+local function PLLDHHL_fake_script() -- Combat_2.Dragify 
 	local script = Instance.new('LocalScript', Combat_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1102,8 +1085,8 @@ local function AZDJA_fake_script() -- Combat_2.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(AZDJA_fake_script)()
-local function YKYCCZS_fake_script() -- Movement_2.Dragify 
+coroutine.wrap(PLLDHHL_fake_script)()
+local function WKDXBWB_fake_script() -- Movement_2.Dragify 
 	local script = Instance.new('LocalScript', Movement_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1152,8 +1135,8 @@ local function YKYCCZS_fake_script() -- Movement_2.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(YKYCCZS_fake_script)()
-local function IRPC_fake_script() -- Visuals_2.Dragify 
+coroutine.wrap(WKDXBWB_fake_script)()
+local function APLC_fake_script() -- Visuals_2.Dragify 
 	local script = Instance.new('LocalScript', Visuals_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1202,8 +1185,8 @@ local function IRPC_fake_script() -- Visuals_2.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(IRPC_fake_script)()
-local function VUAEM_fake_script() -- Utility_2.Dragify 
+coroutine.wrap(APLC_fake_script)()
+local function SSADHZO_fake_script() -- Utility_2.Dragify 
 	local script = Instance.new('LocalScript', Utility_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1252,8 +1235,8 @@ local function VUAEM_fake_script() -- Utility_2.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(VUAEM_fake_script)()
-local function BHQBCDE_fake_script() -- World_2.Dragify 
+coroutine.wrap(SSADHZO_fake_script)()
+local function NMGEYN_fake_script() -- World_2.Dragify 
 	local script = Instance.new('LocalScript', World_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1302,8 +1285,8 @@ local function BHQBCDE_fake_script() -- World_2.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(BHQBCDE_fake_script)()
-local function TCCUR_fake_script() -- Main.onof 
+coroutine.wrap(NMGEYN_fake_script)()
+local function HISWV_fake_script() -- Main.onof 
 	local script = Instance.new('LocalScript', Main)
 
 	local uis = game:GetService("UserInputService")
@@ -1319,4 +1302,4 @@ local function TCCUR_fake_script() -- Main.onof
 		end
 	end)
 end
-coroutine.wrap(TCCUR_fake_script)()
+coroutine.wrap(HISWV_fake_script)()
