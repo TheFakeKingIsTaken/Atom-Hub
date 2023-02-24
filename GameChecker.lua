@@ -3,6 +3,6 @@
 
 --[checker]
 if 1 == 1 then -- for now no other games
-     loadstring(game:HttpGet("https://github.com/TheFakeKingIsTaken/Atom-Hub/blob/main/Games/Universal.lua", true))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/TheFakeKingIsTaken/Atom-Hub/main/Games/Universal.lua", true))()
  end
 
