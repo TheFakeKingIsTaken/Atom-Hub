@@ -2,7 +2,9 @@
 
 
 --[checker]
-if true then -- for now no other games
+if game.PlaceId == 6403373529 then
+     
+else
      loadstring(game:HttpGet("https://raw.githubusercontent.com/TheFakeKingIsTaken/Atom-Hub/main/Games/Universal.lua", true))()
  end
 
