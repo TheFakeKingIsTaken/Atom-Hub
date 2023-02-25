@@ -1276,7 +1276,7 @@ local function NMGEYN_fake_script() -- World_2.Dragify
 	dragify(script.Parent)
 end
 coroutine.wrap(NMGEYN_fake_script)()
-local function HISWV_fake_script() -- Main.onof 
+function HISWV_fake_script() -- Main.onof 
 	local script = Instance.new('LocalScript', Main)
 
 	local uis = game:GetService("UserInputService")
@@ -1298,7 +1298,7 @@ coroutine.wrap(HISWV_fake_script)()
 
 --[Library Functions]
 
-local function CreateButton(Title,Window,DesOn,Des)
+function CreateButton(Title,Window,DesOn,Des)
     local TempButton = Instance.new("TextButton")
     
     TempButton.Name = Title
