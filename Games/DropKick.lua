@@ -1480,22 +1480,22 @@ local function AWJRWAY_fake_script() -- AutoToixc.Main
 			local endwordphase = nil
 			
 			if endword == 1 then
-				endwordphase = "BOZO "
+				endwordphase = "BOZO"
 			elseif  endword  == 2 then
-				endwordphase = "XD "
+				endwordphase = "XD"
 			elseif endword  == 3 then
-				endwordphase = "GO DIE "
+				endwordphase = "GO DIE"
 			elseif  endword  == 4 then
-				endwordphase = "L "
+				endwordphase = "L"
 			elseif  endword  == 5 then
-				endwordphase = "bozo + L + no dad   "
+				endwordphase = "bozo + L + no dad"
 			elseif  endword == 6 then
 				endwordphase = "L + dad didnt come back with the mlik + no life"
 			end
 			
 			
 			local args = {
-				[1] = starterwordphase .. midwordphase .. endwordphase,
+				[1] = starterwordphase .. midwordphase .. endwordphase .. " |Atom Hub On Top|",
 				[2] = "All"
 			}
 	
