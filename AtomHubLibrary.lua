@@ -81,61 +81,7 @@ local Detail_13 = Instance.new("Frame")
 local UICorner_27 = Instance.new("UICorner")
 local Detail_14 = Instance.new("Frame")
 
---[Library Functions]
 
-local function CreateButton(Title,Window,DesOn,Des)
-    local TempButton = Instance.new("TextButton")
-    
-    TempButton.Name = Title
-
-    TempButton.Parent = Window
-    TempButton.BackgroundColor3 = Color3.fromRGB(138, 43, 255)
-    TempButton.Position = UDim2.new(0.0125000002, 0, 0, 0)
-    TempButton.Size = UDim2.new(0, 195, 0, 45)
-    TempButton.Font = Enum.Font.Code
-    TempButton.Text = Title
-    TempButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-    TempButton.TextSize = 35.000
-
-    local TempText = Instance.new("TextLabel")
-
-    if DesOn then
-        TempText.Parent = Window
-        TempText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        TempText.BackgroundTransparency = 1.000
-        TempText.Position = UDim2.new(0.769230783, 0, 0, 0)
-        TempText.Size = UDim2.new(0, 45, 0, 45)
-        TempText.Font = Enum.Font.Code
-        TempText.Text = Des
-        TempText.TextColor3 = Color3.fromRGB(255, 0, 0)
-        TempText.TextSize = 12.000
-        TempText.TextWrapped = true
-    end
-end
-
-local function GameSupport(Supported,game)
-
-    local Title_8 = Instance.new("TextLabel")
-
-    Title_8.Name = "Title"
-    Title_8.Parent = Main
-    Title_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    Title_8.BackgroundTransparency = 1.000
-    Title_8.Position = UDim2.new(0.0147207938, 0, 0.0431483015, 0)
-    Title_8.Size = UDim2.new(0, 214, 0, 50)
-    Title_8.Font = Enum.Font.Code
-    if Supported == true then
-        Title_8.Text = "supported Game ",game
-        Title_8.TextColor3 = Color3.fromRGB(0, 255, 76)
-    else
-        Title_8.Text = "Unsupported Game"
-        Title_8.TextColor3 = Color3.fromRGB(255, 0, 0)
-    end
-
-    Title_8.TextScaled = true
-    Title_8.TextSize = 35.000
-    Title_8.TextWrapped = true
-end
 
 --[Properties]
 
@@ -1347,5 +1293,64 @@ local function HISWV_fake_script() -- Main.onof
 	end)
 end
 coroutine.wrap(HISWV_fake_script)()
+
+
+
+--[Library Functions]
+
+local function CreateButton(Title,Window,DesOn,Des)
+    local TempButton = Instance.new("TextButton")
+    
+    TempButton.Name = Title
+
+    TempButton.Parent = Window
+    TempButton.BackgroundColor3 = Color3.fromRGB(138, 43, 255)
+    TempButton.Position = UDim2.new(0.0125000002, 0, 0, 0)
+    TempButton.Size = UDim2.new(0, 195, 0, 45)
+    TempButton.Font = Enum.Font.Code
+    TempButton.Text = Title
+    TempButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    TempButton.TextSize = 35.000
+
+    local TempText = Instance.new("TextLabel")
+
+    if DesOn then
+        TempText.Parent = Window
+        TempText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        TempText.BackgroundTransparency = 1.000
+        TempText.Position = UDim2.new(0.769230783, 0, 0, 0)
+        TempText.Size = UDim2.new(0, 45, 0, 45)
+        TempText.Font = Enum.Font.Code
+        TempText.Text = Des
+        TempText.TextColor3 = Color3.fromRGB(255, 0, 0)
+        TempText.TextSize = 12.000
+        TempText.TextWrapped = true
+    end
+end
+
+local function GameSupport(Supported,game)
+
+    local Title_8 = Instance.new("TextLabel")
+
+    Title_8.Name = "Title"
+    Title_8.Parent = Main
+    Title_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Title_8.BackgroundTransparency = 1.000
+    Title_8.Position = UDim2.new(0.0147207938, 0, 0.0431483015, 0)
+    Title_8.Size = UDim2.new(0, 214, 0, 50)
+    Title_8.Font = Enum.Font.Code
+    if Supported == true then
+        Title_8.Text = "supported Game ",game
+        Title_8.TextColor3 = Color3.fromRGB(0, 255, 76)
+    else
+        Title_8.Text = "Unsupported Game"
+        Title_8.TextColor3 = Color3.fromRGB(255, 0, 0)
+    end
+
+    Title_8.TextScaled = true
+    Title_8.TextSize = 35.000
+    Title_8.TextWrapped = true
+end
+
 
 local AtomHubLibrary
