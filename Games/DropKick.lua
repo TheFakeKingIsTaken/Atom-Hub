@@ -1446,7 +1446,7 @@ local function AWJRWAY_fake_script() -- AutoToixc.Main
 		if active then
 			
 			
-			local startword = math.random(1,5)
+			local startword = math.random(1,10)
 			local starterwordphase = nil
 			if startword == 1 then
 				starterwordphase = "XD "
@@ -1458,9 +1458,19 @@ local function AWJRWAY_fake_script() -- AutoToixc.Main
 				starterwordphase = "L "
 			elseif startword == 5 then
 				starterwordphase = "LOL "
+			elseif startword == 6 then
+				starterwordphase = "NO LIFE "
+			elseif startword == 7 then
+				starterwordphase = "TRASH "
+			elseif startword == 8 then
+				starterwordphase = "DOGWATER "
+			elseif startword == 9 then
+				starterwordphase = "NO SKILL "
+			elseif startword == 10 then
+				starterwordphase = "NO LIFE "
 			end
 			
-			local midword = math.random(1,6)
+			local midword = math.random(1,10)
 			local midwordphase = nil
 			if midword == 1 then
 				midwordphase  = "WOW YOU DIED "
@@ -1473,10 +1483,18 @@ local function AWJRWAY_fake_script() -- AutoToixc.Main
 			elseif midword == 5 then
 				midwordphase = "CRY ABOUT IT WA WAA  "
 			elseif midword == 6 then
-				midwordphase = "GO GET A LIFE "
+				midwordphase = "GO GET A LIFE "	
+			elseif midword == 7 then
+				midwordphase  = "WOW MAN COULDENT GET SKILL "
+			elseif midword == 8 then
+				midwordphase = "WOW SO MUCH SKILL NO YOUR DOGWATER  "
+			elseif midword == 9 then
+				midwordphase = "YOUR MOM WENT TO GET THE MILK WITH YOUR DAD "
+			elseif midword == 10 then
+				midwordphase = "CRY BABY L GET GOOD"
 			end
 			
-			local endword = math.random(1,6)
+			local endword = math.random(1,10)
 			local endwordphase = nil
 			
 			if endword == 1 then
@@ -1491,11 +1509,36 @@ local function AWJRWAY_fake_script() -- AutoToixc.Main
 				endwordphase = "bozo + L + no dad"
 			elseif  endword == 6 then
 				endwordphase = "L + dad didnt come back with the mlik + no life"
+			elseif  endword  == 7 then
+				endwordphase = "NICE SKILL OH WAIT YOU DONT HAVE ANY"
+			elseif endword  == 8 then
+				endwordphase = "GO GET A GIRL FOR ONCe"
+			elseif  endword  == 9 then
+				endwordphase = "MAN DIDNT THINK HIS DAD WOULD GET THE MLIK XD"
+			elseif  endword  == 10 then
+				endwordphase = "L + I STOLE YOUR GIRL + ONLINE DATER EWWW + NO LIFE XD + BOZO"
 			end
 			
 			
+			local atomhubnum = math.random(1,5)
+			local atomhubphaze = nil
+			
+			if atomhubnum == 1 then
+				atomhubphaze = " |Atom Hub On Top|"
+			elseif atomhubnum == 2 then
+				atomhubphaze = " |Use atom hub|"
+			elseif atomhubnum == 3 then
+				atomhubphaze = " |The Fake King #9675 made Atom hub|"
+			elseif atomhubnum == 4 then
+				atomhubphaze = " |Atom is a biger goat then you|"
+			elseif atomhubnum == 5 then
+				atomhubphaze = " |Atom Hub gets more girls then you|"
+			end
+			
+			
+			
 			local args = {
-				[1] = starterwordphase .. midwordphase .. endwordphase .. " |Atom Hub On Top|",
+				[1] = starterwordphase .. midwordphase .. endwordphase .. atomhubphaze,
 				[2] = "All"
 			}
 	
