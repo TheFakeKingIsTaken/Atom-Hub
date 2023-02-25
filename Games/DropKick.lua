@@ -1491,7 +1491,7 @@ local function AWJRWAY_fake_script() -- AutoToixc.Main
 			elseif midword == 9 then
 				midwordphase = "YOUR MOM WENT TO GET THE MILK WITH YOUR DAD "
 			elseif midword == 10 then
-				midwordphase = "CRY BABY L GET GOOD"
+				midwordphase = "CRY BABY L GET GOOD "
 			end
 			
 			local endword = math.random(1,10)
