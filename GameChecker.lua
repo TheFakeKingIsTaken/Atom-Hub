@@ -1,7 +1,20 @@
 --skiddos get your skiddoing hands away from here before i pull out two glock 18
 
+local PrivateUser = nil
 
-local PrivateUser = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheFakeKingIsTaken/Atom-Hub/main/Private/Whitelist.lua", true))()
+local HttpService = game:GetService("HttpService")
+local ID = game:GetService("RbxAnalyticsService"):GetClientId()
+
+local hwidtable = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheFakeKingIsTaken/Atom-Hub/main/Private/Users.lua"))()
+
+
+for i,v in pairs(hwidtable) do
+    if v == ID then
+        PrivateUser = true
+    end
+end
+
+
 
 
 --[checker]
