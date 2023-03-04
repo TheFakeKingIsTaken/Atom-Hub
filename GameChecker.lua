@@ -6,6 +6,9 @@ local PrivateUser = loadstring(game:HttpGet("https://raw.githubusercontent.com/T
 
 --[checker]
 if PrivateUser then
+    -- for now nothing for private users
+    print("test")
+else
     if game.PlaceId == 566399244 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/TheFakeKingIsTaken/Atom-Hub/main/Games/ElementalBattlegrounds.lua", true))()
     elseif game.PlaceId == 12413542851 then
@@ -13,7 +16,5 @@ if PrivateUser then
     else
         loadstring(game:HttpGet("https://raw.githubusercontent.com/TheFakeKingIsTaken/Atom-Hub/main/Games/Universal.lua", true))()
     end
-else
-    -- for now nothing for private users
-    print("test")
+    
 end
