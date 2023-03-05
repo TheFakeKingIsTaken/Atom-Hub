@@ -40,13 +40,10 @@ local UICorner_12 = Instance.new("UICorner")
 local AutoToixc = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
-local AutoWin = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
-local TextLabel_2 = Instance.new("TextLabel")
-local UICorner_15 = Instance.new("UICorner")
 local Title_3 = Instance.new("TextLabel")
 local Detail_5 = Instance.new("Frame")
-local UICorner_16 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local Detail_6 = Instance.new("Frame")
 local Title_4 = Instance.new("TextLabel")
 
@@ -296,32 +293,8 @@ TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 12.000
 TextLabel.TextWrapped = true
 
-AutoWin.Name = "Auto Win"
-AutoWin.Parent = List_3
-AutoWin.BackgroundColor3 = Color3.fromRGB(138, 43, 255)
-AutoWin.Position = UDim2.new(0.0125000002, 0, 0, 0)
-AutoWin.Size = UDim2.new(0, 195, 0, 45)
-AutoWin.Font = Enum.Font.Code
-AutoWin.Text = "Auto Win"
-AutoWin.TextColor3 = Color3.fromRGB(255, 255, 255)
-AutoWin.TextSize = 35.000
-
 UICorner_14.CornerRadius = UDim.new(0, 4)
-UICorner_14.Parent = AutoWin
-
-TextLabel_2.Parent = AutoWin
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.128205135, 0, 0.355555564, 0)
-TextLabel_2.Size = UDim2.new(0, 145, 0, 45)
-TextLabel_2.Font = Enum.Font.Code
-TextLabel_2.Text = "Run on a match"
-TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.TextSize = 12.000
-TextLabel_2.TextWrapped = true
-
-UICorner_15.CornerRadius = UDim.new(0, 4)
-UICorner_15.Parent = Utility_2
+UICorner_14.Parent = Utility_2
 
 Title_3.Name = "Title"
 Title_3.Parent = Utility_2
@@ -344,7 +317,7 @@ Detail_5.Position = UDim2.new(0.5, 0, 0.75, 0)
 Detail_5.Size = UDim2.new(0, 150, 0, 4)
 Detail_5.ZIndex = 2
 
-UICorner_16.Parent = Detail_5
+UICorner_15.Parent = Detail_5
 
 Detail_6.Name = "Detail"
 Detail_6.Parent = Utility_2
@@ -369,7 +342,7 @@ Title_4.TextWrapped = true
 
 -- Scripts:
 
-local function XUNK_fake_script() -- Movement.Main 
+local function CMUA_fake_script() -- Movement.Main 
 	local script = Instance.new('LocalScript', Movement)
 
 	local active = false
@@ -399,8 +372,8 @@ local function XUNK_fake_script() -- Movement.Main
 		end
 	end)
 end
-coroutine.wrap(XUNK_fake_script)()
-local function OXHZSE_fake_script() -- Movement.Color Changer 
+coroutine.wrap(CMUA_fake_script)()
+local function OZUATR_fake_script() -- Movement.Color Changer 
 	local script = Instance.new('LocalScript', Movement)
 
 	
@@ -419,8 +392,8 @@ local function OXHZSE_fake_script() -- Movement.Color Changer
 		end
 	end)
 end
-coroutine.wrap(OXHZSE_fake_script)()
-local function ERHBS_fake_script() -- Utility.Main 
+coroutine.wrap(OZUATR_fake_script)()
+local function SVMPH_fake_script() -- Utility.Main 
 	local script = Instance.new('LocalScript', Utility)
 
 	local active = false
@@ -450,8 +423,8 @@ local function ERHBS_fake_script() -- Utility.Main
 		end
 	end)
 end
-coroutine.wrap(ERHBS_fake_script)()
-local function NPMWH_fake_script() -- Utility.Color Changer 
+coroutine.wrap(SVMPH_fake_script)()
+local function YXKEPX_fake_script() -- Utility.Color Changer 
 	local script = Instance.new('LocalScript', Utility)
 
 	
@@ -470,8 +443,8 @@ local function NPMWH_fake_script() -- Utility.Color Changer
 		end
 	end)
 end
-coroutine.wrap(NPMWH_fake_script)()
-local function IJSHOM_fake_script() -- Main_2.Dragify 
+coroutine.wrap(YXKEPX_fake_script)()
+local function FWLMJ_fake_script() -- Main_2.Dragify 
 	local script = Instance.new('LocalScript', Main_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -520,8 +493,8 @@ local function IJSHOM_fake_script() -- Main_2.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(IJSHOM_fake_script)()
-local function OKXA_fake_script() -- Speed.Main 
+coroutine.wrap(FWLMJ_fake_script)()
+local function YFLL_fake_script() -- Speed.Main 
 	local script = Instance.new('LocalScript', Speed)
 
 	local active = false
@@ -548,8 +521,8 @@ local function OKXA_fake_script() -- Speed.Main
 		end
 	end)
 end
-coroutine.wrap(OKXA_fake_script)()
-local function DLRGF_fake_script() -- Speed.Color Changer 
+coroutine.wrap(YFLL_fake_script)()
+local function NFYRDS_fake_script() -- Speed.Color Changer 
 	local script = Instance.new('LocalScript', Speed)
 
 	
@@ -568,8 +541,8 @@ local function DLRGF_fake_script() -- Speed.Color Changer
 		end
 	end)
 end
-coroutine.wrap(DLRGF_fake_script)()
-local function OBDV_fake_script() -- Fly.Main 
+coroutine.wrap(NFYRDS_fake_script)()
+local function KOGPVP_fake_script() -- Fly.Main 
 	local script = Instance.new('LocalScript', Fly)
 
 	-- skiddos get out of here before i pull out my glock 18
@@ -665,8 +638,8 @@ local function OBDV_fake_script() -- Fly.Main
 	
 	
 end
-coroutine.wrap(OBDV_fake_script)()
-local function IPYMKQM_fake_script() -- Fly.Color Changer 
+coroutine.wrap(KOGPVP_fake_script)()
+local function LROBWU_fake_script() -- Fly.Color Changer 
 	local script = Instance.new('LocalScript', Fly)
 
 	
@@ -685,8 +658,8 @@ local function IPYMKQM_fake_script() -- Fly.Color Changer
 		end
 	end)
 end
-coroutine.wrap(IPYMKQM_fake_script)()
-local function QRAVBEO_fake_script() -- Movement_2.Dragify 
+coroutine.wrap(LROBWU_fake_script)()
+local function ZTWUX_fake_script() -- Movement_2.Dragify 
 	local script = Instance.new('LocalScript', Movement_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -735,8 +708,8 @@ local function QRAVBEO_fake_script() -- Movement_2.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(QRAVBEO_fake_script)()
-local function PGXIGH_fake_script() -- uninject.Main 
+coroutine.wrap(ZTWUX_fake_script)()
+local function GLEEFYH_fake_script() -- uninject.Main 
 	local script = Instance.new('LocalScript', uninject)
 
 	local active = false
@@ -756,8 +729,8 @@ local function PGXIGH_fake_script() -- uninject.Main
 	
 	
 end
-coroutine.wrap(PGXIGH_fake_script)()
-local function EZIPN_fake_script() -- uninject.Color Changer 
+coroutine.wrap(GLEEFYH_fake_script)()
+local function WTISLVM_fake_script() -- uninject.Color Changer 
 	local script = Instance.new('LocalScript', uninject)
 
 	
@@ -776,8 +749,8 @@ local function EZIPN_fake_script() -- uninject.Color Changer
 		end
 	end)
 end
-coroutine.wrap(EZIPN_fake_script)()
-local function ZZVEJR_fake_script() -- AutoToixc.Main 
+coroutine.wrap(WTISLVM_fake_script)()
+local function HRIK_fake_script() -- AutoToixc.Main 
 	local script = Instance.new('LocalScript', AutoToixc)
 
 	-- skiddos get out of here before i pull out my glock 18
@@ -904,8 +877,8 @@ local function ZZVEJR_fake_script() -- AutoToixc.Main
 		end
 	end
 end
-coroutine.wrap(ZZVEJR_fake_script)()
-local function GUHA_fake_script() -- AutoToixc.Color Changer 
+coroutine.wrap(HRIK_fake_script)()
+local function ZJXJO_fake_script() -- AutoToixc.Color Changer 
 	local script = Instance.new('LocalScript', AutoToixc)
 
 	
@@ -924,57 +897,8 @@ local function GUHA_fake_script() -- AutoToixc.Color Changer
 		end
 	end)
 end
-coroutine.wrap(GUHA_fake_script)()
-local function UOKG_fake_script() -- AutoWin.Main 
-	local script = Instance.new('LocalScript', AutoWin)
-
-	-- skiddos get out of here before i pull out my glock 18
-	
-	
-	
-	local active = false
-	local button = script.Parent
-	
-	
-	button.MouseButton1Click:Connect(function()
-		if active then
-			active = false
-			
-			button.BackgroundColor3 = Color3.fromRGB(138, 43, 255)
-	
-		else
-			active = true
-			button.BackgroundColor3 = Color3.fromRGB(76, 24, 144)
-			for index,folder in pairs(workspace:GetChildren()) do
-				if folder.Name == "LOADED_MAP" then
-					for index,maps in pairs(folder:GetChildren()) do
-						if maps then
-							for index,checkpoints in pairs(maps:GetChildren()) do
-								if checkpoints.Name == "Checkpoints" then
-									for index,points in pairs(checkpoints:GetChildren()) do
-	
-										local lhrt = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-										lhrt.CFrame = points.CFrame
-	
-										wait(0.5)
-									end
-								end
-							end
-						end
-					end
-				end
-	
-			end
-		end
-		button.BackgroundColor3 = Color3.fromRGB(138, 43, 255)
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(UOKG_fake_script)()
-local function VHOZSPR_fake_script() -- Utility_2.Dragify 
+coroutine.wrap(ZJXJO_fake_script)()
+local function XVTETA_fake_script() -- Utility_2.Dragify 
 	local script = Instance.new('LocalScript', Utility_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1023,8 +947,8 @@ local function VHOZSPR_fake_script() -- Utility_2.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(VHOZSPR_fake_script)()
-local function UJGLPS_fake_script() -- Main.onof 
+coroutine.wrap(XVTETA_fake_script)()
+local function MCOSJ_fake_script() -- Main.onof 
 	local script = Instance.new('LocalScript', Main)
 
 	local uis = game:GetService("UserInputService")
@@ -1040,8 +964,8 @@ local function UJGLPS_fake_script() -- Main.onof
 		end
 	end)
 end
-coroutine.wrap(UJGLPS_fake_script)()
-local function GDLI_fake_script() -- Title_4.Dragify 
+coroutine.wrap(MCOSJ_fake_script)()
+local function TNBQOKC_fake_script() -- Title_4.Dragify 
 	local script = Instance.new('LocalScript', Title_4)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1090,4 +1014,4 @@ local function GDLI_fake_script() -- Title_4.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(GDLI_fake_script)()
+coroutine.wrap(TNBQOKC_fake_script)()
